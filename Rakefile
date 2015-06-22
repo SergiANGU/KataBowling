@@ -1,5 +1,5 @@
 task default: %w[test]
 
 task :test do
-  ruby "bowling_tests.rb"
+  ruby "bowling_test.rb"
 end

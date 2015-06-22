@@ -22,7 +22,18 @@ In the tenth frame a player who rolls a spare or strike is allowed to roll the e
 balls to complete the frame.  However no more than three balls can be rolled in
 tenth frame.
 
-## How to use this repository
+# Three laws of TDD
+
+When doing the exercise, it is important to stick to the three rules of TDD. For more information click [here][4].
+
+1. You may not write production code until you have written a failing unit test.
+
+2. You may not write more of a unit test than is sufficient to fail, and not com-
+piling is failing.
+
+3. You may not write more production code than is sufficient to pass the currently failing test.
+
+## How to use this repository?
 
 1. Clone this repository
 ```
@@ -34,8 +45,9 @@ cd tdd-bowling-kata
 ```
 3. Run your tests by using `rake`
 
-
+# Have fun!
 
 [1]: https://twitter.com/unclebobmartin
 [2]: http://butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata
 [3]: https://github.com/seattlerb/minitest
+[4]: http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd
